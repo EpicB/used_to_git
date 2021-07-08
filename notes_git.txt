@@ -1,0 +1,4 @@
+git clone [rapasatory_url] allows you to edit the rapastory localy
+git add tracks the file for any changes that happens to it there for making sure git can realize those changes for applying purposes
+git commit is going to commit the changes that have been tracked using git add there for applying them
+to setup ssh keys use this webpage its also there in the video https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
