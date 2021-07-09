@@ -11,3 +11,30 @@ mykey is the private key mykey.pub is the public one which you need to move to g
 
 $ eval "$(ssh-agent -s)"
 $ ssh-add ~/.ssh/(name of file where you stored the private key)
+
+to create a new rapastory localy without attaching it to gethub 
+you can do the following 
+
+git init (which initializes the current folder as a git rapastory)
+
+after you did that there is no connection between that rapastory and github at all to 
+create the connection you do the following 
+
+you create a new rapastory in github with the same name as the folder that you created 
+
+then you take its link 
+and you do
+
+git remote add origin (github rapastory link)
+
+to check that it worked 
+
+git remote -v
+
+to make a shortcut for 
+
+git push origin master 
+
+git push -u origin master
+
+after that command you setup a defualt and you can use git push without anything else 
