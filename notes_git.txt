@@ -35,6 +35,6 @@ to make a shortcut for
 
 git push origin master 
 
-git push -u origin master
+git push -u origin master <!-- 'u' stands for upstream -->
 
 after that command you setup a defualt and you can use git push without anything else 
