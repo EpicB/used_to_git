@@ -3,7 +3,11 @@ git add tracks the file for any changes that happens to it there for making sure
 git commit is going to commit the changes that have been tracked using git add there for applying them
 to setup ssh keys use this webpage its also there in the video https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
+git add . will add the whole directory 
+
 git commit -m "message" dont forget -m option its really usefull
+
+git commit -am "message" add + commit if the file status is modified not created
 
 most important codes that allowed me to run git push
 
