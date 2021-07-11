@@ -60,6 +60,13 @@ git diff "name of the branch you want to compare with main/master branch"
 
 git diff will show the differnece between the branch and its master
 
-git merge "name of the branch you want to merge" 
+git merge "name of the branch you want to merge" you can merge master / main with any branch
+
+to merge main/master to any branch you can checkout to that branch and then do
+
+git merge main
 
 git merge will move the changes that happend to the branch and add it to the main branch
+
+
+merge conflicts can be fixed directly in the code itself
