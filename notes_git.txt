@@ -45,6 +45,17 @@ after that command you setup a defualt and you can use git push without anything
 git branch to check out what branches you have going
  the star will represent what branch you are currently on
 
+git branch -d "name of the branch that you want to delete" 
+    use this to delete the branches that have already been merged and no longer have a use
+
 git checkout -b "nameOfbranch" to create a new branch
 
 git checkout "nameOfbranch" to navgate to that branch
+
+git diff "name of the branch you want to compare with main/master branch"
+
+git diff will show the differnece between the branch and its master
+
+git merge "name of the branch you want to merge" 
+
+git merge will move the changes that happend to the branch and add it to the main branch
