@@ -3,6 +3,8 @@ git add tracks the file for any changes that happens to it there for making sure
 git commit is going to commit the changes that have been tracked using git add there for applying them
 to setup ssh keys use this webpage its also there in the video https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
+git commit -m "message" dont forget -m option its really usefull
+
 most important codes that allowed me to run git push
 
 $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
@@ -38,3 +40,11 @@ git push origin master
 git push -u origin master <!-- 'u' stands for upstream -->
 
 after that command you setup a defualt and you can use git push without anything else 
+
+
+git branch to check out what branches you have going
+ the star will represent what branch you are currently on
+
+git checkout -b "nameOfbranch" to create a new branch
+
+git checkout "nameOfbranch" to navgate to that branch
