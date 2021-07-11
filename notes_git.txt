@@ -70,3 +70,14 @@ git merge will move the changes that happend to the branch and add it to the mai
 
 
 merge conflicts can be fixed directly in the code itself
+
+git reset [filename] if you want to untrack a file unstage it 
+
+git reset will unstage/untrack all the files
+
+git reset HEAD~1 this will tell git to go back 1 commit back HEAD is a pointer that points 
+    to the last commit that you have made 
+
+git log  it will show you every commit you have done 
+
+git reset [hash of the commit that you get from git log]
