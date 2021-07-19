@@ -1,0 +1,32 @@
+Numbers in python
+
+number = 55
+number2 = str(55)
+
+print(1)
+print("this is a string" + number2)
+
+you can prefrom all arithmatic operations + * - /
+
+and you can also take the remainder %
+
+print(1*5)
+
+functions on numbers
+
+abs(-5) always returns a postive number
+
+min(5,2)
+min(5,2,6,8) returns the minmum
+
+max(5,2)
+max(5,6,2,7) returns the maximum 
+
+round(3.5) round a number based on its current value 
+
+bin(342) converts a number to a binary string
+
+from math import *
+from the module that is named math i want to have everything
+
+

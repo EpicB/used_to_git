@@ -1,0 +1,13 @@
+you can take input from a user and store it in a variable such as
+
+name = input("tell me your name you fat fuck")
+
+print(name + " nice name faggot")
+
+if you are asking the user for a number 
+
+age = int(input("what is your age"))
+
+---    you cant concat with an integer    ---
+
+print("your age is ",age) 

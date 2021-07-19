@@ -1,0 +1,38 @@
+Strings in python:
+
+name = "potato"
+
+you can print that name
+
+print(name)
+
+you can print each letter by itself
+
+print(name[0]) if the index is higher than the length it will give error
+
+you can print special charcaters
+
+print('hi,\n \'potato') \n new line \' is to allow you to print '
+
+
+you can use different functions on strings 
+
+name.upper() uppercase everything
+name.lower() lowercase everything
+name.islower() is it fully lowercase??
+name.isupper() is it fully uppercase??
+
+to check the length
+len(name)
+len("hello") 
+
+to find a particualer charcater index 
+name.index("o",2) the 2nd argument is optional and its the start
+
+to replace a certain character with another it replaces all 
+name.replace("o","a")
+
+you can chain functions together 
+name.lower.islower() >> always true since it converts to lower case first
+
+
