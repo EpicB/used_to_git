@@ -1,0 +1,60 @@
+Lists in python is an array but has its own functions i would say
+
+
+name = ["hello","yes","no"]
+
+indexed based variables with multiple values accessed from 0 to the len -1
+
+to access no 
+
+
+name[2]
+
+you can use slice
+
+name[start:end]
+
+defualt start is 0
+defualt end is (length of list)
+
+negative indexing is allowed 
+
+name[-1] // will provide the last item in the list
+returns "no"
+
+name[0:-1] print everything beside the last element idk why
+
+using the list constructor
+
+list(("hello",0,False))
+
+Lists methods
+
+List1.extend(list2) this method will join the 2 lists together
+
+list1.append("potato") this method will add the desired value to the end 
+			of the list
+list1.insert(index,"potato") this method will add the desired value to 
+				the desired index of that list
+
+list1.remove("potato") this method will a remove the desired value
+
+list1.clear() removes every item in the list
+
+list1.index("potato") this will print the index number of the desired 
+			value
+list1.count("potato") how many times was potato repeated in the list
+
+list1.sort() sorts the list of numbers
+
+list1.reverse() returns the list in reverse 
+
+list1.copy() returns a copy of the list
+
+list1.pop() removes the last value in the list
+
+list1.pop(1) removes the value that has the index of 1 
+
+del list1[0] deletes the first item of the list
+
+del list1 << completely removes a list becomes undefined 

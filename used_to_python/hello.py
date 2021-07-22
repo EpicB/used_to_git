@@ -19,3 +19,12 @@ print(bin(12))
 names = input("tell me your name you fat fuck : ")
 print(names + " nice name faggot")
 
+a_list = ["hello","yes","no"]
+
+print(a_list[len(a_list)-1:])
+
+print(a_list[:-1])
+b_list = list(("hello",2,False))
+
+print(b_list)
+
