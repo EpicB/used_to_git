@@ -1,0 +1,33 @@
+fucntions declaration 
+
+def function_name():
+	whatever syntax 
+
+this is a void function ^ 
+
+function call 
+
+function_name()
+
+
+function passing arguments 
+
+def function_name(name,age):
+	whatever syntax 
+
+function_name("puta",15)
+
+passing in multiple arguments as a list 
+
+def function_name(*names)
+	names[1] // potato
+	names[0] // hello 
+	whatever syntax
+
+function_name("hello","potato")
+
+functions with return value 
+
+def function_name():
+	return 5+3
+

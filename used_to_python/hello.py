@@ -28,3 +28,13 @@ b_list = list(("hello",2,False))
 
 print(b_list)
 
+tuble = (1,2,3,4)
+
+print("the tuble is : ")
+print(tuble)
+
+def myfunc(*names):
+    print(names[0]);
+myfunc("yes_sir")
+
+

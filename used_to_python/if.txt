@@ -1,0 +1,10 @@
+if statments syntax
+
+
+
+if x == y:
+	do the following
+elif x<y:
+	do the following
+else x>y:
+	do the following

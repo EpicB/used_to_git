@@ -1,0 +1,16 @@
+a tuble is a list that has every type of element which cannot be 
+modiefied nor extended 
+
+
+declaration 
+tuple = (1,True,"Potato")
+
+using class 
+
+tuple = tuble((1,True,"Potato"))
+
+you can get the length
+len(tuple)
+tip : think of it as const List 
+
+usage : when you need to use values that you dont want to be repeated
