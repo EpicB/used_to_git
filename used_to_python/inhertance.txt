@@ -1,0 +1,13 @@
+inhertance works liek this 
+
+
+you create a new file that has the object that you wanna use 
+
+
+from fileName import objectName
+
+class person(objectName)
+	pass
+
+the class person will have everything that the ObjectName in the other
+python file has 
