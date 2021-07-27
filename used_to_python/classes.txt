@@ -1,0 +1,38 @@
+in python you can create classes such as 
+
+the 'pass' keyword
+allows you to bypass the error in the code for a certain code block
+
+class myclass: 
+	x = 5
+
+
+c1 = myclass()
+
+print(c1.x) >> returns a 5 
+
+
+now in each there a function called the init function
+which gets called when a functions gets intialized
+
+def __init__(self,name,age):
+	this.name = name
+	this.age = age
+
+myclass("potato",65) 
+
+
+you can del attributes from objects 
+
+such as 
+
+
+del c1.age
+
+if you want to delete the whole class 
+
+del c1
+
+c1 is now undefined
+
+

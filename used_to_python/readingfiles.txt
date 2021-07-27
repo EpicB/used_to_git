@@ -1,0 +1,50 @@
+to read from a file in python 
+
+the method open
+
+nameoffile = open("filelocation","operation")
+
+operations on files are as follows
+
+r read from the file
+
+w wrtie from the file
+
+a append to the file
+
+r+ which means read and write to the file
+
+
+nameoffile =open("FileLocation","operation")
+between those is how we interact with the file
+
+nameoffile.readline() #gets the first line
+nameoffile.readline() #gets the 2nd line since it was called twice
+nameoffile.readlines() #returns all the lines of that file as a list 
+
+nameoffile.close()
+
+
+you can loop over all the the files 
+
+such as
+
+for lines in nameoffile.readlines():
+	do the following
+
+
+when it comes to writing to a file first the operation should be w 
+
+such as follows 
+
+
+files = open("filename.txt","w") #this will write to the file
+files.write("this is a new line") 
+files.close
+
+if you want to append just change the 'w' operation to 'a'
+
+this will writeline a list each one is seperated with a new line
+lines = ['line1', 'line2']
+with open('filename.txt', 'w') as f:
+    f.writelines("%s\n" % l for l in lines)
