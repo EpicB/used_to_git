@@ -1,0 +1,37 @@
+
+
+
+for usually uses the (in) keyword
+
+the in keyword has 2 uses 
+
+* to check if a value exist in a sequence(string,list,set,tuple,dict) 
+
+if "potato" in mylist:
+	do the following
+
+* to loop through a sequence 
+
+you can use the break syntax to terminate a loop 
+
+for value in mylist:
+	do the following
+
+to loop over a range of numbers you can use the "range" function
+
+for x in range(start: end : step) 
+	do the following
+
+
+if only 1 value is specifed the start by default is 0 and the step is 1
+
+for x in range(4)  4 is not included 
+	do the following 
+
+if 2 values are specified the step defualt is 1 
+
+for x in range(2,5) 5 is not included 
+	do the following 
+
+to know how many times the loop is going to work ( start - end )
+

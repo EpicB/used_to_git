@@ -1,0 +1,25 @@
+you can use the try except syntax to deal with errors that occur
+
+
+try:
+	something
+except: if any exception occur (general) 
+	soemthing happens to make for the error
+
+try:
+
+except valueerror: if a valueerror occurs then do the following
+	soemthing happens
+
+there are multple erros that occur but if you wanna generalize the errorsjust type except on its own
+
+you can add an else after the except which means if the try happened 
+correctly therefor tell me that or do something about it
+
+try:
+	something
+except: 
+	do soemthing else in case of error
+else:
+	if the try worked i wanna be excuted
+

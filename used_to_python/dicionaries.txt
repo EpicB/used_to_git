@@ -1,0 +1,37 @@
+dicitionaries are pretty similer to java script objects 
+
+
+key --- value 
+
+
+
+my_dic = {
+"name" : "potato",
+"age" : "immortal",
+}
+duplication is not allowed in the dicationary 
+
+
+my_dic = {
+	"name" : "potato",
+	"name" : "shasha",
+}
+the name key will now point to shasha if you try to print it 
+
+my_dic["name"]
+
+you can use the len functions on the dicationary 
+
+len(my_dic)
+and you can mix in data types
+my_dic{
+	"name" : "ez",
+	"age" : 18,
+	"awake" : false,
+	"list" : ["yea","no"],
+}
+
+dont forget the "," after each data 
+
+type(my_dic)  --  dictionary
+

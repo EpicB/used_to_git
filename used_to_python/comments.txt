@@ -1,0 +1,11 @@
+single line comments 
+
+#hello im a single line comment
+
+multiple comment 
+
+'''
+hello im not gonna get detected by the compiler
+
+im gonna get ignored too 
+'''
